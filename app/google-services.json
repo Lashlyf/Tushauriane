@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822524781308",
+    "project_id": "tushauriane-48a59",
+    "storage_bucket": "tushauriane-48a59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822524781308:android:a39bdc4891a754680d6d79",
+        "android_client_info": {
+          "package_name": "com.example.tushauriane"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoIP4qeDd7bd9rBQ8_9AZrAJgTaOto4Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
