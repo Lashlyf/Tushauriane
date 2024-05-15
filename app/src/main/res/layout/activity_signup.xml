@@ -60,13 +60,13 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
-        android:background="@drawable/edittext_background"
         android:ems="10"
         android:hint="Enter Your Name"
         android:inputType="textPersonName"
         android:padding="12dp"
+        android:background="@drawable/edittext_background"
         android:textColor="#707070"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/white"
         android:textSize="18sp" />
 
     <TextView
@@ -90,7 +90,7 @@
         android:inputType="textEmailAddress"
         android:padding="12dp"
         android:textColor="#707070"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/white"
         android:textSize="18sp" />
 
     <TextView
@@ -114,7 +114,7 @@
         android:inputType="textPassword|numberPassword"
         android:padding="12dp"
         android:textColor="#707070"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/white"
         android:textSize="18sp" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -123,7 +123,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/button_background"
+        android:background="@drawable/signup_button"
         android:text="Sign up"
         android:textColor="#ffffff"
         android:textSize="24sp"
