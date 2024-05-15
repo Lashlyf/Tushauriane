@@ -65,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Communities.setOnClickListener(View ->{
-            Intent intent = new Intent(MainActivity.this, Community_fragment.class);
+            Intent intent = new Intent(MainActivity.this, Community
+                    .class);
             startActivity(intent);
         });
 
