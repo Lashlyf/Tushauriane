@@ -58,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+        chatBot.setOnClickListener(View ->{
+            Intent intent = new Intent(MainActivity.this, ContactActivity.class);
+            startActivity(intent);
+        });
 
         Chatbot.setOnClickListener(View ->{
             Intent intent = new Intent(MainActivity.this, ContactActivity.class);
@@ -65,6 +69,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Communities.setOnClickListener(View ->{
+            Intent intent = new Intent(MainActivity.this, Community
+                    .class);
+            startActivity(intent);
+        });
+
+        communities.setOnClickListener(View ->{
             Intent intent = new Intent(MainActivity.this, Community
                     .class);
             startActivity(intent);
